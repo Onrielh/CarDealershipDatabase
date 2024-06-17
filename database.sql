@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS dealership;
 CREATE DATABASE IF NOT EXISTS dealership;
 USE dealership;
- -- create tables for data
+ 
 CREATE TABLE DEALERSHIPS(
 dealership_id int auto_increment primary key,
 name varchar(50),
